@@ -1,0 +1,98 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Doto:wght@100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* .text{
+   font-family: "Bitcount Prop Single", system-ui;
+} */
+html {
+  scroll-behavior: smooth;
+}
+
+.text {
+  font-family: "Geist", system-ui, sans-serif;
+}
+
+.dotted_name{
+  font-family: "Doto", sans-serif;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark .bg-white { background-color: #111827; }
+html.dark .bg-white\/80 { background-color: rgb(17 24 39 / 0.8); }
+html.dark .bg-gray-50 { background-color: #1f2937; }
+html.dark .bg-gray-100 { background-color: #263244; }
+html.dark .bg-gray-100\/80 { background-color: rgb(38 50 68 / 0.8); }
+html.dark .bg-gray-100\/50 { background-color: rgb(38 50 68 / 0.5); }
+html.dark .bg-gray-50\/50 { background-color: rgb(31 41 55 / 0.5); }
+html.dark .bg-gray-200 { background-color: #374151; }
+html.dark .bg-gray-300 { background-color: #4b5563; }
+html.dark .bg-green-50 { background-color: #163523; }
+html.dark .bg-red-50 { background-color: #3a1c22; }
+
+html.dark .border-gray-100,
+html.dark .border-gray-200,
+html.dark .border-gray-300,
+html.dark .border-zinc-200 { border-color: #374151; }
+html.dark .border-green-100 { border-color: #25633e; }
+html.dark .border-red-100 { border-color: #7f2d39; }
+
+html.dark .text-black,
+html.dark .text-gray-950,
+html.dark .text-gray-900,
+html.dark .text-gray-800,
+html.dark .text-zinc-900 { color: #f9fafb; }
+html.dark .text-gray-700,
+html.dark .text-gray-600 { color: #d1d5db; }
+html.dark .text-gray-500,
+html.dark .text-zinc-500 { color: #aeb9c9; }
+html.dark .text-gray-400 { color: #94a3b8; }
+
+html.dark .bg-zinc-900,
+html.dark .bg-gray-900,
+html.dark .bg-gray-950 { background-color: #030712; }
+html.dark .border-zinc-900,
+html.dark .border-gray-950 { border-color: #e5e7eb; }
+html.dark .bg-zinc-900,
+html.dark .bg-gray-900,
+html.dark .bg-gray-950,
+html.dark .text-white { color: #fff; }
+
+html.dark .from-gray-50 { --tw-gradient-from: #111827 var(--tw-gradient-from-position); }
+html.dark .via-gray-50 { --tw-gradient-via: #1f2937 var(--tw-gradient-via-position); }
+html.dark .to-gray-50 { --tw-gradient-to: #111827 var(--tw-gradient-to-position); }
+html.dark .ring-gray-100 { --tw-ring-color: #374151; }
+
+html.dark .marquee-edge-fade {
+  --tw-gradient-from: #1f2937 var(--tw-gradient-from-position);
+  --tw-gradient-via: rgb(31 41 55 / 0.9) var(--tw-gradient-via-position);
+}
+
+html.dark .hero-image-gradient {
+  --tw-gradient-from: rgb(3 7 18 / 0.25) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(15 23 42 / 0.2) var(--tw-gradient-to-position);
+}
+
+html.dark .section-dot {
+  background-color: #93c5fd;
+}
+
+html.dark .name-border {
+  border-color: #f9fafb;
+  color: #f9fafb;
+}
+
+html.dark .name-border .name-border-corner {
+  background-color: #f9fafb;
+}
+
+html.dark [class*="background-image:linear-gradient(#000"] {
+  background-image:
+    linear-gradient(#fff 1px, transparent 1px),
+    linear-gradient(90deg, #fff 1px, transparent 1px);
+}

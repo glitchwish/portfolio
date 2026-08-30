@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vishal Sarup Mathur</title>
+  </head>
+  <body>
+    <div id="initial-loader" role="status" aria-label="Loading">
+      <span style="--i: 0">V</span><span style="--i: 1">i</span><span style="--i: 2">s</span><span style="--i: 3">h</span><span style="--i: 4">a</span><span style="--i: 5">l</span><span class="space">&nbsp;</span><span style="--i: 7">M</span><span style="--i: 8">a</span><span style="--i: 9">t</span><span style="--i: 10">h</span><span style="--i: 11">u</span><span style="--i: 12">r</span>
+    </div>
+    <div id="root"></div>
+    <style>
+      #initial-loader { position: fixed; z-index: 10000; inset: 0; display: flex; align-items: center; justify-content: center; font: 600 20px/1 system-ui, sans-serif; letter-spacing: .08em; color: #18181b; pointer-events: none; }
+      #initial-loader span:not(.space) { display: inline-block; opacity: .15; transform: translateY(5px); animation: loader-letter 1.3s ease-in-out calc(var(--i) * 90ms) infinite; }
+      @keyframes loader-letter { 0%, 100% { opacity: .15; transform: translateY(5px); } 45% { opacity: 1; transform: translateY(0); } }
+    </style>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
