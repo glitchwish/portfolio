@@ -41,7 +41,7 @@ const experiences = [
     number: "02",
     period: "May 2024 — Jul 2024",
     role: "Machine Learning and App Dev Intern",
-    company: "Yokoso Solutions Private Limited",
+    company: "Yoko Solutions Private Limited",
     location: "Remote",
     description:
       "Led a two-member team to build an AI-powered matchmaking app, developing key matchmaking design, recommendation system, and AI avatar generation for the organization.",
