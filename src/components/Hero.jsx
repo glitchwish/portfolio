@@ -156,7 +156,7 @@ const Hero = () => {
               "
             >
               I engineer full-stack systems, AI/ML applications, and digital
-              solutions across the entire delivery cycle—from understanding
+              solutions across the entire delivery cycle from understanding
               complex requirements and designing the solution to development,
               deployment, UAT, and adoption.
             </motion.p>
@@ -520,11 +520,11 @@ const Hero = () => {
 
             <div className="absolute -bottom-10 right-0 hidden text-right lg:block">
               <p className="text-[9px] font-semibold uppercase tracking-[0.3em] text-gray-300">
-                 26° 50' 29" N
+                 26° 50' 49.1856" N
               </p>
 
               <p className="mt-1 text-[9px] font-semibold uppercase tracking-[0.3em] text-gray-300">
-                80° 52' 32" E
+                80° 52' 34.7808" E
               </p>
             </div>
           </motion.div>
